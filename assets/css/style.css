@@ -1,13 +1,16 @@
+/* 'universal' element selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* 'body' element selector */
 body {
     background-color: #d9dcd6;
 }
 
+/* 'header' element selector */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* 'h1' element selector within the 'header' element */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* 'seo' class selector within the 'h1' element that are within the 'header' element */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* 'nav' element selector within the 'header' element */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,61 @@ header nav {
     font-size: 20px;
 }
 
+/* 'ul' element selector within the 'nav' element that are within the 'header' element */
 header nav ul {
     list-style-type: none;
 }
 
+/* 'li' element selector within the 'ul' element within the 'nav' element that are within the 'header' element */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* 'a' element selector */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* 'p' element selector */
 p {
     font-size: 16px;
 }
 
+/* 'aside' element selector */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* changed the background color to match the main page, fixes contrast problem  */
+    background-color: #0072bb;
+}
+
+/* 'section' element selector within the 'aside' element */
+aside section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* 'h3' element selector within the 'aside' element */
+aside h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* 'img' element selector within the 'aside' element */
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* 'hero' class selector */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,53 +102,27 @@ p {
     background-position: center;
 }
 
+/* 'float-left' class selector */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* 'float-right' class selector */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+/* 'main-content' class selector */
+.main-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* changed the color to match the main page, fixes contrast problem  */
-    background-color: #0072bb;
-}
-
-.benefit-image {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-image h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-image img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing
+/* 'content' class selector */
+.content
  {
     margin-bottom: 20px;
     padding: 50px;
@@ -115,19 +132,19 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+/* 'img' element selector wihin the 'content' class */
+.content img
+ {
     max-height: 200px;
 }
 
-.search-engine-optimization h2,
-.social-media-marketing h2,
-.online-reputation-management h2 {
+/* 'h2' element selector wihin the 'content' class */
+.content h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* 'footer' element selector */
 .footer {
     padding: 30px;
     clear: both;
@@ -135,6 +152,7 @@ p {
     text-align: center;
 }
 
+/* 'h2' element selector within the 'h2' class */
 .footer h2 {
     font-size: 20px;
 }
