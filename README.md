@@ -19,7 +19,7 @@ Here is a link to the live finished page: https://shogren.github.io/01-Challenge
 
 Here is a screenshot of the finished site:
 
-![The finished webpage which has been refactored to be more accessable](./Assets/images/finished_site.png)
+![The finished webpage which has been refactored to be more accessable](./assets/images/finished_site.png)
 
 ## Additional Notes
 
